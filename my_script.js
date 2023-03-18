@@ -3,4 +3,5 @@ const boton = document.getElementById("cambiar-mensaje");
 
 boton.addEventListener("click", () => {
   mensaje.textContent = "Nuevo mensaje";
+  alert("works")
 });
